@@ -1,0 +1,10 @@
+[package]
+name = "bls"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+clap = { version = "4", features = ["derive"] }
+termcolor = "1.4.1"
+users = "0.11.0"
+walkdir = "2.5.0"
